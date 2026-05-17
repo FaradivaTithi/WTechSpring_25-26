@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f6f8;
+    color: #1f2933;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form,
+.page-box {
+    width: min(100%, 520px);
+    margin: 0 auto;
+    padding: 24px;
+    background: #ffffff;
+    border: 1px solid #dfe3e8;
+    border-radius: 8px;
+}
+
+form {
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select,
+button {
+    max-width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+}
+
+textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    width: min(100%, 1100px);
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: min(100%, 900px);
+}
